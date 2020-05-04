@@ -1,0 +1,9 @@
+<template>
+    <lightning-card title = "CertificateCreateRecord" icon-name="standard:record">
+        <div class="slds-m-around-medium">
+            <lightning-input label="Id" disabled value={certificationId}></lightning-input>
+            <lightning-input label="Certification Name" onchange={handleNameChange} class="slds-m-bottom_x-small"></lightning-input>
+            <lightning-button label = "Create Certificate" variant="brand" onclick={createCertificate}></lightning-button>
+        </div>
+    </lightning-card>
+</template>

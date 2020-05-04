@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/certReqList": [
+                "certReqList/certReqList.js"
+            ],
+            "c/certificateCreateRecord": [
+                "certificateCreateRecord/certificateCreateRecord.js"
+            ],
+            "c/certificationList": [
+                "certificationList/certificationList.js"
+            ],
+            "c/employeeList": [
+                "employeeList/employeeList.js"
+            ],
+            "c/myComponent": [
+                "myComponent/myComponent.js"
+            ],
+            "c/voucherList": [
+                "voucherList/voucherList.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}
